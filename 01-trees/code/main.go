@@ -18,5 +18,5 @@ func main(){
 	root.Left = nodeTen
 	root.Right = nodeTwentyFive
 	nodeTen.Left = nodeEight
-	implementations.Inorder(root)
+	implementations.PostOrder(root)
 }
