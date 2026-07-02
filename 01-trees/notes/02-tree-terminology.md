@@ -6,7 +6,9 @@
 
 ### This is a node that is directly above another node 
 
-# Child ### A node directly below another node 
+# Child 
+
+### A node directly below another node 
 
 # Sibling 
 

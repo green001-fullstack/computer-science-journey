@@ -1,10 +1,10 @@
-# What a queue is
+# What a queue is and the problem it solves
 
-### It is a data structure that operate on the principle of first in first out. It process data that enter the queue first before the later ones.
+### It is a data structure that operate on the principle of first in first out. It process data that enter the queue first before the later ones. A queue solves the problem of processing items in the exact order they were discovered or added.
 
 # FIFO
 
-### This is the principle on which ques is based on
+### FIFO (First In, First Out) means the first element added to the queue is the first element removed.
 
 # Enqueue.
 
@@ -13,6 +13,10 @@
 # Dequeue
 
 ### Remove from the beginning of the queue(the first member of the queue)
+
+# Why are we storing *Node in the queue instead of Node
+
+### The queue stores pointers because a tree is built from linked nodes. By storing pointers, the queue processes the actual nodes in the tree rather than making copies of them.
 
 # Why BFS naturally uses a queue
 
@@ -24,4 +28,4 @@
 
 # My Biggest Insight
 
-### I was able to figure out the reason why BFS naturally gravitate towards queue(queue data structure allows it to achieve its algorithm)
+### I realized that algorithms naturally pair with data structures. BFS uses a queue because a queue processes nodes in the exact order they are discovered.
