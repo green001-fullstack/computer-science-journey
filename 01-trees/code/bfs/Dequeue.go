@@ -1,4 +1,4 @@
-package lesson15bfs
+package bfs
 
 func (q *Queue) Dequeue() *Node {
 	if len(q.items) == 0{

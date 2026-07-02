@@ -1,4 +1,4 @@
-package implementations
+package transversal
 
 import(
 	"fmt"

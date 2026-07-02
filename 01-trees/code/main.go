@@ -1,22 +1,22 @@
 package main
 import (
-	"tree/implementations"
+	"tree/bfs"
 )
 
 
 
 func main(){
 
-	root := &implementations.Node{
+	root := &bfs.Node{
 		Value : 15,
 	}
 
-	nodeTen := &implementations.Node{ Value : 10}
-	nodeTwentyFive := &implementations.Node{ Value : 25}
-	nodeEight := &implementations.Node{ Value : 8}
+	nodeTen := &bfs.Node{ Value : 10}
+	nodeTwentyFive := &bfs.Node{ Value : 25}
+	nodeEight := &bfs.Node{ Value : 8}
 
 	root.Left = nodeTen
 	root.Right = nodeTwentyFive
 	nodeTen.Left = nodeEight
-	implementations.PostOrder(root)
+	bfs.BFS(root)
 }

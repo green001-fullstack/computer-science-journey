@@ -1,4 +1,4 @@
-package lesson15bfs
+package bfs
 
 type Queue struct{
 	items []*Node
